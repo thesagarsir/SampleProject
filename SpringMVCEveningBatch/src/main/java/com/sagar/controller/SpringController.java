@@ -26,7 +26,7 @@ public class SpringController {
 	@RequestMapping("/login")
 	public ModelAndView loginCheck(@ModelAttribute Login user) {
 		System.out.println("I am in LoginCheck Method...!!!");
-		
+		System.out.println("wertyuio");
 		System.out.println(user.getUsername());
 		System.out.println(user.getPassword());
 		
