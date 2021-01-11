@@ -27,6 +27,8 @@ public class SpringController {
 	public ModelAndView loginCheck(@ModelAttribute Login user) {
 		System.out.println("I am in LoginCheck Method...!!!");
 	
+		
+		
 		System.out.println(user.getUsername());
 		System.out.println(user.getPassword());
 		
