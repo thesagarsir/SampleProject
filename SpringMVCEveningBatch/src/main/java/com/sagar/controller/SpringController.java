@@ -34,7 +34,17 @@ public class SpringController {
 		
 		boolean result = service.loginCheck(user);
 		if(result) {
+			System.out.println("I am in LoginCheck Method...!!!");
 			
+			System.out.println("I am in LoginCheck Method...!!!");
+			
+			System.out.println("I am in LoginCheck Method...!!!");
+			
+			System.out.println("I am in LoginCheck Method...!!!");
+			
+			System.out.println("I am in LoginCheck Method...!!!");
+			
+			System.out.println("I am in LoginCheck Method...!!!");
 			System.out.println("Login Successs....!!");
 			
 			mv.setViewName("redirect:/home");
